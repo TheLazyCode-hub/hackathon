@@ -6,7 +6,7 @@
    if there is nothing then container stopped, so check the logs
 	docker log test
    test here is container name
-   This will give the details why container stopped by viewing the logs.
+   This will give the detail why container stopped by viewing the logs.
    It says some file not attached.
 
 2.1. Remove the created container using 
