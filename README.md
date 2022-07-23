@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # The csvgenerator assignment
 
 The developer team of the csvgenerator was working hard to get it ready for production. The team decided to go for a trip before the launch, and has been missing since then. You have been given the responsibility to figure out how to get the csvgenerator running correctly with the help of the following document. You might need to understand why things are failing and try to fix them, and make it ready for a launch<sup>[1](#user-content-ftn1)</sup>.
@@ -94,3 +95,6 @@ The Prometheus instance should be accessible at http://localhost:9090, and it sh
  0. Create a helm file for the same and deploy in k8s-1.22 ( minikube / any cloud  managed k8s ) with ingress enabled and letsencrypt SSL attached to it and csvgenerator should be accessed on "/" context. Helm files should have all the dynamic values needed for menifest deployments
  1. Delpoy HELM based grafana in the same k8s cluster under the above same ingress and it should get accessed with some proxy pass rules ( / grafana ) enable alerts to sent to MS-Teams . Alerting ruls for CPU , RAM for service , pod level and PV  alerting , on reaching max replica / node
  2. Enable EFK(elasticsearch , filebeat , kibana) in the same cluster to check logs for the application and kibana should be authenticated with username , password on loading in browser.[ note - EFK stack which we need to use is free version ]
+=======
+# hackathon
+>>>>>>> ec04b88d48ead369e1cc47723d86fbb961abb60c
