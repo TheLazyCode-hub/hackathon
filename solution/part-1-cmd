@@ -1,0 +1,1 @@
+docker run -itd -v /root/Desktop/t/hackathon/appserver/solution/inputFile:/csvserver/inputdata -p 9393:9300 -e CSVSERVER_BORDER=Orange --name test fosfordevops/csvgenerator:latest
